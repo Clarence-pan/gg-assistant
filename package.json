@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "ffi": "^2.1.0",
     "nw": "^0.17.5"
   }
 }
