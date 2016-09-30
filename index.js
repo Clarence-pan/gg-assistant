@@ -1,9 +1,9 @@
 console.log("started!");
 
-var FFI = require('node-ffi');
+var FFI = require('ffi');
 
 function TEXT(text){
-    return new Buffer(text, 'ucs2').toString('binary');
+    return new Buffer(text + "\0", 'ucs2').toString('binary');
 }
 
 var user32 = new FFI.Library('user32', {
