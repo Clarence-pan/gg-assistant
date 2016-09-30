@@ -1,0 +1,14 @@
+{
+  "name": "gg-assistant",
+  "version": "1.0.0",
+  "description": "Assistant for GG(git and gulp) project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nw": "^0.17.5"
+  }
+}
